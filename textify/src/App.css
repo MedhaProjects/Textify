@@ -1,0 +1,344 @@
+/* Enhanced Alert Box */
+.custom-alert {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-alert .close-btn {
+  background: none;
+  border: none;
+  color: #721c24;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.custom-alert .close-btn:hover {
+  color: #f5c6cb;
+}
+
+/* Button Hover Effect */
+.btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-outline-warning:hover {
+  background-color: #ffc107;
+  color: white;
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-outline-info:hover {
+  background-color: #17a2b8;
+  color: white;
+}
+
+
+
+.feature-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.feature-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.feature-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.feature-header p {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.feature-section {
+  margin-bottom: 30px;
+}
+
+.feature-section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-list li {
+  margin-bottom: 20px;
+}
+
+.feature-list h3 {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.feature-list p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.feature-footer {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+}
+
+
+.footer {
+background-color: #333;
+color: #fff;
+width: 100%;
+position: relative; /* Changed to relative for normal positioning */
+bottom: 0;
+left: 0;
+padding: 40px 20px;
+text-align: center;
+font-family: Arial, sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: auto; /* Ensures footer connects to the content */
+}
+
+.footer-container {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-bottom: 0px;
+max-width: 1200px;
+width: 100%;
+}
+
+.footer-links ul,
+.footer-socials ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.footer-links ul li,
+.footer-socials ul li {
+margin: 10px 0;
+}
+
+.footer-links a,
+.footer-socials a {
+color: #fff;
+text-decoration: none;
+font-size: 1rem;
+}
+
+.footer-links a:hover,
+.footer-socials a:hover {
+color: #ffa500; /* Orange color on hover */
+}
+
+.footer-socials a {
+display: flex;
+align-items: center;
+}
+
+.footer-socials i {
+margin-right: 8px;
+}
+
+.footer-contact {
+margin: 10px 0;
+}
+
+.footer-contact a {
+color: #ffa500;
+text-decoration: none;
+}
+
+.footer-bottom {
+background-color: #222;
+padding: 10px;
+font-size: 0.9rem;
+width: 100%;
+text-align: center;
+margin-top: 20px; /* Added margin-top for spacing */
+}
+
+
+
+
+.feature-page {
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.light-mode {
+background-color: #ffffff;
+color: #000000;
+}
+
+.dark-mode {
+background-color: #121212;
+color: #ffffff;
+}
+
+.dark-mode-toggle {
+margin-top: 10px;
+padding: 8px 12px;
+cursor: pointer;
+border: none;
+background-color: #007bff;
+color: #ffffff;
+border-radius: 5px;
+}
+
+.dark-mode-toggle:hover {
+background-color: #0056b3;
+}
+
+/* App.css or Navbar.css */
+
+/* Style for navbar links */
+.nav-link {
+transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.nav-link:hover {
+color: #ff6347; /* Change color to a different one on hover (Tomato color) */
+text-decoration: underline; /* Underline the text on hover */
+}
+
+/* For dark mode */
+.navbar-dark .nav-link:hover {
+color: #ff6347; /* Adjust color for dark mode if needed */
+}
+
+
+
+/* Feature.css */
+
+/* Light Mode Styling */
+.feature-section.light-mode {
+background-color: #f4f4f9;
+color: #333;
+padding: 40px;
+border-radius: 8px;
+}
+
+.feature-heading {
+text-align: center;
+font-size: 2rem;
+margin-bottom: 30px;
+color: #333;
+}
+
+/* Dark Mode Styling */
+.feature-section.dark-mode {
+background-color: #333;
+color: #fff;
+padding: 40px;
+border-radius: 2px;
+}
+
+.feature-cards {
+display: flex;
+justify-content: space-between;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.feature-card {
+background-color: #fff;
+border-radius: 5px;
+padding: 20px;
+text-align: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+width: 30%;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.feature-icon {
+font-size: 40px;
+margin-bottom: 20px;
+color: #ff6347; /* Tomato color */
+}
+
+.feature-title {
+font-size: 1.25rem;
+font-weight: bold;
+margin-bottom: 15px;
+color: #333;
+}
+
+.feature-description {
+font-size: 1rem;
+color: #666;
+}
+
+/* Adding Animations for Features */
+.feature-card.animate__fadeInUp {
+opacity: 0;
+animation: fadeInUp 1s forwards;
+}
+
+.feature-card.animate__delay-1s {
+animation-delay: 1s;
+}
+
+.feature-card.animate__delay-2s {
+animation-delay: 2s;
+}
+
+@keyframes fadeInUp {
+0% {
+  opacity: 0;
+  transform: translateY(20px);
+}
+100% {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
