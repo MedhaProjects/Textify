@@ -3,6 +3,10 @@
 
 Textify is a web application designed to enhance text-based interactions with features such as animations, font awesome icons, and other interactive elements. This project demonstrates the integration of modern CSS frameworks and libraries with a React-based workflow.
 
+![1](https://github.com/user-attachments/assets/9f9ad9f2-93de-4a96-986d-8c7929365301)
+![2](https://github.com/user-attachments/assets/483fcf6f-5b17-4d80-ae56-ab7cf680bf1d)
+
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
